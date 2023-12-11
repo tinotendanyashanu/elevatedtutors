@@ -10,7 +10,6 @@ export default function Page() {
   return (
     <div>
       <div className="flex flex-wrap gap-4 items-center">
-        <BackBg />
         <Hero />
       </div>
     </div>

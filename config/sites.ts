@@ -10,7 +10,7 @@ export const siteConfig = {
     },
     {
       label: "Study Notes",
-      href: "/StudyNotes",
+      href: "/studyNotes",
     },
     {
       label: "Pricing",
@@ -27,24 +27,24 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Study Notes",
+      href: "/studyNotes",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Pricing",
+      href: "/pricing",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Blog",
+      href: "/blog",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
+      label: "About",
+      href: "/about",
     },
     {
       label: "Settings",
@@ -61,9 +61,9 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/tinotendanyashanu",
-    twitter: "https://twitter.com/getnextui",
+    twitter: "https://twitter.com/",
     docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    discord: "https://discord.",
+    sponsor: "https://patreon.com/InnovateInsiders",
   },
 };
