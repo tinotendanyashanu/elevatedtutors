@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* background */
+
+.background-opacity {
+  position: relative;
+}
+
+.background-opacity::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  opacity: 2; /* Adjust this value for desired opacity */
+  z-index: -1;
+}
