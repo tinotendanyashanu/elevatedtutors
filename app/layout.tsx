@@ -42,7 +42,7 @@ export default function RootLayout({
         {/* bg-hero-pattern background-opacity */}
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
           <div className="relative flex flex-col h-screen ">
-            <BackBg />
+            
             <Navbar />
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
