@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.521",
     "framer-motion": "^10.16.5",
     "next": "14.0.1",
     "next-themes": "^0.2.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-variants": "^0.1.18"
   },
   "devDependencies": {
     "@types/node": "^20",
