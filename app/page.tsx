@@ -14,17 +14,11 @@ import Section7 from "@/components/sections/section7";
 
 export default function Page() {
   return (
-    <div className="mx-auto">
-      <Hero />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      {/* <div className="flex flex-wrap gap-4 items-center">
+    <div>
+      <div className="flex flex-wrap gap-4 items-center">
         <BackBg />
-      </div> */}
+        <Hero />
+      </div>
     </div>
   );
 }
